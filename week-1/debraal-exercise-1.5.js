@@ -14,7 +14,8 @@ console.log(header.display('Rita', 'DeBraal', 'Exercise 1.3'))
 
 var url = require("http");
 function processRequest(req, res) {
-  var body = "Hello World";
+  var body = 'Equal parts white and dark chocolate. ' +
+            'A balanced diet does not make.';
   var contentLength = body.length;
   res.writeHead(200, {
     'Content-Length': contentLength,
