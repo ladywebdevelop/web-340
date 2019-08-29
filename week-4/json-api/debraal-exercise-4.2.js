@@ -10,7 +10,7 @@ Description: Demonstrate JSON-Api
 // Import statement from header file
 const header = require('../../debraal-header.js')
 // Print statement with firstName, lastName, and assignment parameters
-console.log(header.display('Rita', 'DeBraal', 'Exercise 3.2'))
+console.log(header.display('Rita', 'DeBraal', 'Exercise 4.2'))
 
 var express = require("express");
 var http = require("http");
