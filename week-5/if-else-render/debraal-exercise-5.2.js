@@ -22,11 +22,11 @@ var app = express();
 app.set("views", path.resolve(__dirname, "views"));
 app.set("view engine", "ejs");
 
-var f = ["Hogan", "Klink", "Schultz"];
+var hogan = ["Hogan", "Klink", "Schultz", "Newkirk", "LeBeau"];
 
 app.get("/", function(req, res) {
   res.render("index", {
-    Heros: f
+    names: hogan
   });
 });
 
