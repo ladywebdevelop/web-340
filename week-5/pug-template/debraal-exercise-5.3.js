@@ -25,8 +25,8 @@ app.set("view engine", "pug");
 
 app.get("/", function(req, res) {
   res.render("index", {
-    message:"I've a soft spot for Klinger. He looks a little like" +
-            "my son, and he dresses a lot like my wife. - Col. Henry Blake"
+    message:"I've a soft spot for Klinger. He looks a little like " +
+    " my son, and he dresses a lot like my wife. - Col. Henry Blake"
   });
 });
 
