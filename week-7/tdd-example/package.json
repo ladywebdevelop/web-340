@@ -2,8 +2,12 @@
   "name": "tdd-in-action",
   "author": "Rita DeBraal",
   "private": true,
+  "version": "0.0.1",
   "dependencies": {
     "chai": "^4.2.0",
     "mocha": "^6.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
   }
 }
