@@ -1,0 +1,7 @@
+{
+  "name": "xss-prevention",
+  "author": "Rita DeBraal",
+  "private": true,
+  "dependencies": {
+  }
+}
