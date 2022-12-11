@@ -3,6 +3,6 @@
   "author": "Rita DeBraal",
   "private": true,
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   }
 }
